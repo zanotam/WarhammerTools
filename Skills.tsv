@@ -1,0 +1,140 @@
+Leader	1	Resourceful	0	As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round
+Leader	2	Bold	0	This model automatically passes Nerve tests
+Leader	2	Inspiring	0	Friendly models within 3 inches of this model - as long as it is not shaken - automatically pass Nerve tests
+Leader	3	Paragon	0	Re-roll hit rolls of 1 for friendly models within 3 inches of this model, as long as it is not shaken
+Leader	3	Tyrant	0	Your opponent(s) must add 1 to Nerve tests for any enemy models within 6 inches of this model, as long as it is not shaken
+Leader	3	Tactician	0	As long as this model is on the battlefield and not shaken, roll a d6 each time you use a Tactic.  On a 5+ you gain a Command Point
+Leader	3	Mentor	0	Once per battle round, when you choose a friendly model whithin 3 inches of this model to shoot in the Shooting phase - as long as this model is not shaken - you can re-roll failed hit rolls for that model until the end of the phase
+Combat	1	Expert Fighter	0	Add 1 to this model's Attacks characteristic
+Combat	2	Warrior Adept	0	Add 1 to hit rolls for this model in the Fight phase
+Combat	2	Deadly Counter	0	If any hit rolls of 1 or less are made for a model's attacks that target this model in the Fight phase, unless this model is shaken, roll a d6.  On a 5+, the model that made the attack suffers 1 mortal wound after all of their attacks have been resolved.
+Combat	3	Deathblow	0	Any wound rolls of 6 you make for this model in the Fight phase inflict 1 mortal wound on the target in addition to any other damage.
+Combat	3	Combat Master	0	Add 1 to the Attacks characteristic of this model for each enemy model within 1 inches of it at the start of the Fight phase, until the end of the phase.
+Combat	3	Killer Instinct	0	You can re-roll any failed wound rolls you make for this model in the Fight phase.
+Combat	3	Bloodlust	0	You can re-roll any failed charge rolls you make for this model.
+Comms	1	Scanner	0	Once per Shooting phase, when you pick a model from your kill team to shoot that is whitin 6 inches of this model, if this model is not shaken, you can add 1 to hit rolls for that model in this phase.
+Comms	2	Expert	0	Roll a d6 at the start of each battle round if this model is not shaken.  On a 5+, you gain 1 additional Command Point.  This additional Command Point is lost at the end of the battle round if not used.
+Comms	2	Static Screech	0	Once per battle at the start of the Fight phase, if this model is not shaken, subtract 1 from hit rolls for enemy models that make attacks while they are whitin 6 inches of this model until the end of the phase.
+Comms	3	Vox Ghost	0	Subtract 1 from the Leadership characteristic of enemy models while this model is on the battlefield, as long as it is not shaken.
+Comms	3	Command Relay	0	Roll a d6 each time you use a Tactic while this model is on the battlefield and not shaken.  On a 6, the Command Points spent on that Tactic are immediately refunded.
+Comms	3	Triangulator	0	Once per Shooting phase, when you pick a model from your kill team to shoot a Heavy weapon, if this model is not shaken, you can re-roll the dice when determining the number of attacks that model can make.
+Comms	3	Vox Hacker	0	After each battle in which this model was in your kill team, if this model is not in Convalescence or dead, roll a d6.  On a 5+ you gain 1 Intelligence
+Demolitions	1	Breacher	0	You can add 1 to this model's wound rolls against targets that are obscured.
+Demolitions	2	Pyromaniac	0	You can re-roll wound rolls of 1 for this model when it is attacking with a weapon that hits automatically.
+Demolitions	2	Grenadier	0	Add 3 inches to the range of any Grenade weapon this model uses.  You can re-roll hit rolls of 1 for Grenade weapons this model uses.
+Demolitions	3	Saboteur	0	If this model is in your kill team and not out of action when you make your Casualty rolls, roll a d6.  On a 5+ choose an opponent who played that mission to lose 1 Materiel.
+Demolitions	3	Sapper	0	If this model is in your kill team and you choose the Plant Traps strategy, you can add 1 to the number of pieces of terrain you can booby trap.
+Demolitions	3	Siegemaster	0	You can add 1 to Injury rolls caused by this model's attacks in the Shooting phase if those Injury rolls are for models that are obscured.
+Demolitions	3	Ammo Hound	0	If this model is in your kill team and not out of action when you make your Casualty rolls, roll a d6.  On a 5+ you gain 1 Materiel.
+Heavy	1	Relentless	0	This model does not suffer the -1 penalty for shooting with a Heavy weapon after moving in the preceding Movement phase, or for shooting an Assault weapon after Advancing.
+Heavy	2	Suppressor	0	Enemy models that are targeted by this model in the Shooting phase suffer a -1 penalty to their hit rolls until the end of the phase.
+Heavy	2	Extra Armour	0	Ignore AP characteristics of -1 for attacks that target this model.
+Heavy	3	Devastator	0	You can re-roll the damage for this model's ranged weapons that have a random Damage characteristic.
+Heavy	3	Rigorous	0	You can re-roll hit rolls of 1 for this model in the Shooting phase.
+Heavy	3	Indomitable	0	Once per battle round, you can make your opponent re-roll the Injury dice for this model.
+Heavy	3	Heavily Muscled	0	You can re-roll wound rolls of 1 for this model in the Fight phase.
+Medic	1	Reassuring	0	This model is never treated as being shaken when taking Nerve tests for other models in your kill team.
+Medic	2	Field Medic	0	Roll a d6 when a friendly model within 3 inches of this model suffers a wound, as long as this model is not shakes; on a 6 that wound is lost.
+Medic	2	Anatomist	0	Re-roll wound rolls of 1 for this model in the Fight phase.
+Medic	3	Trauma Specialist	0	When an Injury roll is made for a friendly model within 3 inches of this model, as long as this model is not shaken, roll an additional dice and use the lowest result.
+Medic	3	Triage Expert	0	If this model is in your kill team and not out of action at the end of a battle, and you roll a Dead result when making a Casualty roll for a model from your kill team, you can roll a d6.  On a 4+ apply the Convalescence result for that model instead.
+Medic	3	Interrogator	0	At the end of any battle in which you were victorious, if this model was in your kill team and not out of action, roll a d6.  Ona 5+ you gain 1 Intelligence.
+Medic	3	Toxin Synthesiser	0	Before deployment, you can pick up to d3 models from your kill team.  Until the end of the battle, add 1 to wound rolls for tattacks made with melee weapons those models are armed with.
+Scout	1	Swift	0	You can re-roll Advance rolls for this model.
+Scout	2	Forward Scout	0	This model automatically passes dangerous terrain tests.
+Scout	2	Pathfinder	0	If this model is not in Convalescence, you can add or subtract 1 from the result when you roll to determine a mission.  If you do, this model must be included in your kill team.
+Scout	3	Skirmisher	0	Your opponent(s) must subtract 1 from hit rolls for shooting attacks that target this model if the firing model is more thas 12 inches from this model and this model is not shaken or obscured.
+Scout	3	Vanguard	0	You can re-roll hit rolls of 1 in the Shooting phase for attacks made by models from your kill team against enemy models that are wtithin 6 inches of this model, as long as this model is not shaken.
+Scout	3	Observer	0	If this model is in your kill team, you can roll a d6 at the start of the Scouting phase.  On a 4+ you can pick an additional strategy.
+Scout	3	Explorer	0	After each battle in which this model was in your kill team, if this model is not in Convalescence, you can roll a d6.  On a 5+ you gain 1 Territory.
+Sniper	1	Marksman	0	You can re-roll hit rolls of 1 for this model whin it makes a shooting attack.
+Sniper	2	Assassin	0	You can re-roll wound rolls of 1 for this model when it makes a shooting attack.
+Sniper	2	Sharpshooter	0	If this model is Readied, add 1 to hit rolls when it makes a shooting attack.
+Sniper	3	Deadeye	0	On an unmodified wound roll of 6 for this model's shooting attacks, increase the Damage characteristic of that attack by 1.
+Sniper	3	Armour Piercing	0	On an unmodified wound roll of 6 for this model's shooting attacks, improve the AP characteristic of that attack by 1.
+Sniper	3	Mobile	0	This model does not suffer the -1 penalty for shooting with a Heavy weapon after moving in the preceeding Movement phase, or for shooting an Assault weapon after Advancing.
+Sniper	3	Eagle-eye	0	Increase the Range characteristic of all Rapid Fire and Heavy weapons this model is armed with by 6 inches.
+Veteran	1	Grizzled	0	This model ignores penalties to its Leadership characteristic and Nerve tests
+Veteran	2	Practised	0	You can re-roll one hit roll or wound roll for this model in each battle round.
+Veteran	2	Seen It All	0	You can subtract 1 from Nerve tests for models from your kill team within 3 inches of this model, as long as it is not shaken.
+Veteran	3	Survivor	0	You can add 1 to saving throws for this model.
+Veteran	3	One-man Army	0	This model generates 1 Command Point at the beginning of each battle round, unless it is shaken or out of action.  This Command Point can only be used for Veteran Tactics.
+Veteran	3	Battle Scarred	0	Enemy models suffer -1 Leadership whilst they are within 6 inches of this model, as long as it is not shaken.
+Veteran	3	Nerves of Steel	0	You can re-roll failed dit rolls for this model when it fires Overwatch.
+Zealot	1	Frenzied	0	You can add 1 to this model's Attacks and Strength characteristicts in a battle round in which they charged.
+Zealot	2	Exultant	0	Opponents must re-roll unmodified hit rolls of 6 for models from their kill team within 3 inches of this model, as long as it is not shaken.
+Zealot	2	Flaggelant	0	Roll a d6 each time this model loses a wound.  On a 6 the wound is ignored.
+Zealot	3	Puritan	0	You can re-roll hit rolls in the Fight phase for this model against enemy models that do not have a Faction keyword in common with it.
+Zealot	3	Rousing	0	Add 1 to the Leadership characterstic of models from your kill team within 6 inches of this model, as long as it is not shaken.
+Zealot	3	Fanatical	0	This model automatically passes Nerve tests.
+Zealot	3	Strength of Spirit	0	Subtract 1 for Injury rolls made for this model.
+Ferocity	1	Counter-attack	1	This model can always be chosen to fight in the Hammer of Wrath section of the Fight phase, even if they did not charge in that battle round.
+Ferocity	2	Bloodlust	1	NULL
+Ferocity	2	Ignore Pain	1	NULL
+Ferocity	3	Fearsome War Cry	1	NULL
+Ferocity	3	Berserker	1	NULL
+Ferocity	3	Death Frenzy	1	NULL
+Ferocity	3	Indignant Rampage	1	NULL
+Fortitude	1	Hardy Constitution	1	Roll a d6 each time this model loses a wound.  On a 6+ that wound is not lost.   If a model already has an ability with a similar effect (such as Disgustingly Resilient), you can choose which effect applies, and re-roll 1s when making these rolls.
+Fortitude	2	Indomitable	1	NULL
+Fortitude	2	Hard to Kill	1	NULL
+Fortitude	3	Feel No Pain	1	NULL
+Fortitude	3	Unyielding Will	1	NULL
+Fortitude	3	True Grit	1	NULL
+Fortitude	3	Iron Constitution	1	NULL
+Leadership	1	Symbol of Courage	1	As long as this model is on the battlefield and not shaken, subtract 1 from Nerve tests for friendly madels.
+Leadership	2	Aura of Command	1	NULL
+Leadership	2	Inspiring	1	NULL
+Leadership	3	Master of War	1	NULL
+Leadership	3	Heroic	1	NULL
+Leadership	3	Grim Determination	1	NULL
+Leadership	3	Tenacious	1	NULL
+Logistics	1	Extra Armour	1	Ignore AP characteristics of -1 for attacks that target this madel.
+Logistics	2	Quartermaster	1	NULL
+Logistics	2	Armed to the Teeth	1	NULL
+Logistics	3	Scavenger	1	NULL
+Logistics	3	Master of Sabotage	1	NULL
+Logistics	3	Master Artisan	1	NULL
+Logistics	3	Rangefinder Scope	1	NULL
+Melee	1	Expert Fighter	1	Add 1 to this model's Attacks characteristic.
+Melee	2	Warrior Born	1	NULL
+Melee	2	Swift Parry	1	NULL
+Melee	3	Duellist	1	NULL
+Melee	3	Precision Strike	1	NULL
+Melee	3	Impenetrable Defence	1	NULL
+Melee	3	Lightning Reflexes	1	NULL
+Psyker	1	Student of the Arcane	1	Add 1 to this model's Psychic tests.
+Psyker	2	Pyschic Onslaught	1	NULL
+Psyker	2	Warp Drain	1	NULL
+Psyker	3	Psionic Poetry	1	NULL
+Psyker	3	Omniscience	1	NULL
+Psyker	3	Protective Wards	1	NULL
+Psyker	3	Witchbane	1	NULL
+Shooting	1	Shootist	1	Re-roll hit rolls of 1 for this model when it makes a shooting attack.
+Shooting	2	Trick-shooter	1	NULL
+Shooting	2	Pistoleer	1	NULL
+Shooting	3	Targetting Weak Spots	1	NULL
+Shooting	3	Precision Strike	1	NULL
+Shooting	3	Hip Shooter	1	NULL
+Shooting	3	Long Bomb	1	NULL
+Stealth	1	Steady Aim	1	This model always counts as Readied in the Shooting phase provided that it remained stationary or made a normal move of no more than half of its Move characteristic in the Movement phase of this battle round.
+Stealth	2	Skulker	1	NULL
+Stealth	2	Climber	1	NULL
+Stealth	3	One with the Shadows	1	NULL
+Stealth	3	Lurker	1	NULL
+Stealth	3	Prowler	1	NULL
+Stealth	3	Sure-footed	1	NULL
+Strategist	1	Resourceful	1	As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.
+Strategist	2	Advisor	1	NULL
+Strategist	2	Feigned Retreat	1	NULL
+Strategist	3	Counter-Strategist	1	NULL
+Strategist	3	Master Tactician	1	NULL
+Strategist	3	Famed Commander	1	NULL
+Strategist	3	Mission-critical Mastermind	1	NULL
+Strength	1	Muscular	1	Add 1 to this model's Strength characteristic.
+Strength	2	Juggernaut	1	NULL
+Strength	2	Brutal Strikes	1	NULL
+Strength	3	Bull Charge	1	NULL
+Strength	3	Sunderer	1	NULL
+Strength	3	Devastating Power	1	NULL
+Strength	3	Crusher	1	NULL

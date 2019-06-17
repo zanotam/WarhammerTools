@@ -1,0 +1,112 @@
+Scout	10	6	3	3	4	4	1	1	7	4	0	NULL
+Scout Gunner	11	6	3	3	4	4	1	1	7	4	0	NULL
+Scout Sergeant	11	6	3	3	4	4	1	2	8	4	0	NULL
+Tactical Marine	12	6	3	3	4	4	1	1	7	3	0	NULL
+Tactical Marine Gunner	13	6	3	3	4	4	1	1	7	3	0	NULL
+Tactical Sergeant	13	6	3	3	4	4	1	2	8	3	0	NULL
+Reiver	16	6	3	3	4	4	2	2	7	3	0	NULL
+Reiver Sergeant	17	6	3	3	4	4	2	3	8	3	0	NULL
+Intercessor	15	6	3	3	4	4	2	2	7	3	0	NULL
+Intercessor Gunner	16	6	3	3	4	4	2	2	7	3	0	NULL
+Intercessor Sergeant	16	6	3	3	4	4	2	3	8	3	0	NULL
+Deathwatch Veteran	14	6	3	3	4	4	1	2	8	3	0	NULL
+Deathwatch Veteran Gunner	16	6	3	3	4	4	1	2	8	3	0	NULL
+Black Shield	16	6	3	3	4	4	1	3	8	3	0	NULL
+Watch Sergeant	16	6	3	3	4	4	1	3	9	3	0	NULL
+Grey Knight	18	6	3	3	4	4	1	1	7	3	0	NULL
+Grey Knight Gunner	19	6	3	3	4	4	1	1	7	3	0	NULL
+Justicar	19	6	3	3	4	4	1	2	8	3	0	NULL
+Guardsman	5	6	4	4	3	3	1	1	6	5	0	NULL
+Guardsman Gunner	5	6	4	4	3	3	1	1	6	5	0	NULL
+Sergeant	5	6	4	4	3	3	1	2	7	5	0	NULL
+Special Weapons Guardsman	5	6	4	4	3	3	1	1	6	5	0	NULL
+Special Weapons Gunner	5	6	4	4	3	3	1	1	6	5	0	NULL
+Scion	9	6	4	3	3	3	1	1	6	4	0	NULL
+Scion Gunner	10	6	4	3	3	3	1	1	6	4	0	NULL
+Tempestor	10	6	3	3	3	3	1	2	7	4	0	NULL
+Skitarii Ranger	9	6	4	3	3	3	1	1	6	4	0	NULL
+Ranger Gunner	10	6	4	3	3	3	1	1	6	4	0	NULL
+Ranger Alpha	10	6	4	3	3	3	1	2	7	4	0	NULL
+Skitarii Vanguard	9	6	4	3	3	3	1	1	6	4	0	NULL
+Vanguard Gunner	10	6	4	3	3	3	1	1	6	4	0	NULL
+Vanguard Alpha	10	6	4	3	3	3	1	2	7	4	0	NULL
+Sicarian Ruststalker	14	8	3	3	4	3	2	3	6	4	0	NULL
+Ruststalker Princeps	15	8	3	3	4	3	2	4	7	4	0	NULL
+Sicarian Infiltrator	14	8	3	3	4	3	2	2	6	4	0	NULL
+Infiltrator Princeps	15	8	3	3	4	3	2	3	7	4	0	NULL
+Chaos Cultist	4	6	4	4	3	3	1	1	5	6	0	NULL
+Chaos Cultist Gunner	5	6	4	4	3	3	1	1	5	6	0	NULL
+Chaos Cultist Champion	5	6	4	4	3	3	1	2	6	6	0	NULL
+Chaos Space Marine	12	6	3	3	4	4	1	1	7	3	0	NULL
+Chaos Space Marine Gunner	13	6	3	3	4	4	1	1	7	3	0	NULL
+Aspiring Champion	13	6	3	3	4	4	1	2	8	3	0	NULL
+Plague Marine	14	5	3	3	4	5	1	1	7	3	0	NULL
+Plague Marine Gunner	15	5	3	3	4	5	1	1	7	3	0	NULL
+Plague Marine Fighter	15	5	3	3	4	5	1	1	7	3	0	NULL
+Plague Champion	15	5	3	3	4	5	1	2	8	3	0	NULL
+Poxwalker	3	4	5	6	3	3	1	2	4	7	0	NULL
+Rubric Marine	16	5	3	3	4	4	1	1	7	3	0	NULL
+Rubric Marine Gunner	16	5	3	3	4	4	1	1	7	3	0	NULL
+Aspiring Sorcerer	17	6	3	3	4	4	1	2	8	3	0	NULL
+Tzaangor	7	6	3	4	4	4	1	1	6	6	0	NULL
+Twistbray	8	6	3	4	4	4	1	2	7	6	0	NULL
+Guardian Defender	7	7	3	3	3	3	1	1	7	5	0	NULL
+Heavy Weapon Platform	8	7	6	3	3	3	2	1	7	5	0	NULL
+Storm Guardian	6	7	3	3	3	3	1	1	7	5	0	NULL
+Storm Guardian Gunner	7	7	3	3	3	3	1	1	7	5	0	NULL
+Ranger	11	7	3	3	3	3	1	1	7	5	0	NULL
+Dire Avenger	10	7	3	3	3	3	1	1	8	4	0	NULL
+Dire Avenger Exarch	11	7	3	3	3	3	2	2	8	4	0	NULL
+Kabalite Warrior	7	7	3	3	3	3	1	1	7	5	0	NULL
+Kabalite Gunner	8	7	3	3	3	3	1	1	7	5	0	NULL
+Sybarite	8	7	3	3	3	3	1	2	8	5	0	NULL
+Wych	8	8	3	3	3	3	1	2	7	6	0	NULL
+Wych Fighter	9	8	3	3	3	3	1	2	7	6	0	NULL
+Hekatrix	9	8	3	3	3	3	1	3	8	6	0	NULL
+Player	12	8	3	3	3	3	1	4	8	6	0	NULL
+Necron Warrior	12	5	3	3	4	4	1	1	10	4	0	NULL
+Immortal	16	5	3	3	4	4	1	1	10	3	0	NULL
+Flayed One	10	5	3	6	4	4	1	3	10	4	0	NULL
+Deathmark	15	5	3	3	4	4	1	1	10	3	0	NULL
+Ork Boy	6	5	3	5	4	4	1	2	6	6	0	NULL
+Ork Boy Gunner	7	5	3	5	4	4	1	2	6	6	0	NULL
+Boss Nob	10	5	3	5	5	4	2	3	7	6	0	NULL
+Gretchin	3	5	5	4	2	2	1	1	4	6	0	NULL
+Kommando	8	6	3	5	4	4	1	2	6	6	0	NULL
+Kommando Boss Nob	12	6	3	5	5	4	2	3	7	6	0	NULL
+Burna Boy	12	5	3	5	4	4	1	2	6	6	0	NULL
+Burna Spanner	10	5	3	5	4	4	1	2	6	6	0	NULL
+Loota	12	5	3	5	4	4	1	2	6	6	0	NULL
+Loota Spanner	10	5	3	5	4	4	1	2	6	6	0	NULL
+Shas'la	8	6	5	4	3	3	1	1	6	4	0	NULL
+Shas'ui	8	6	5	4	3	3	1	2	7	4	0	NULL
+DS8 Tactical Support Turret	0	NULL	NULL	4	3	3	1	0	4	4	0	NULL
+Pathfinder	6	7	5	4	3	3	1	1	6	5	0	NULL
+Pathfinder Gunner	7	7	5	4	3	3	1	1	6	5	0	NULL
+Pathfinder Shas'ui	7	7	5	4	3	3	1	2	7	5	0	NULL
+Breacher Shas'la	8	6	5	4	3	3	1	1	6	4	0	NULL
+Breacher Shas'ui	8	6	5	4	3	3	1	2	7	4	0	NULL
+Stealth Shas'ui	20	8	5	4	4	4	2	2	7	3	0	NULL
+Stealth Shas'vre	20	8	5	4	4	4	2	3	8	3	0	NULL
+MV1 Gun Drone	7	8	5	5	3	4	1	1	6	5	0	NULL
+MV4 Shield Drone	7	8	5	5	3	4	1	1	6	5	0	NULL
+MV7 Marker Drone	7	8	5	5	3	4	1	1	6	5	0	NULL
+MV36 Guardian Drone	7	8	5	5	3	4	1	1	6	5	0	NULL
+MV33 Grav-inhibitor Drone	7	8	5	5	3	4	1	1	6	5	0	NULL
+MV31 Pulse Accelerator Drone	7	8	5	5	3	4	1	1	6	5	0	NULL
+MB3 Recon Drone	7	8	5	5	4	4	2	1	6	5	0	NULL
+Termagant	4	6	4	4	3	3	1	1	5	6	0	NULL
+Hormagaunt	4	8	4	4	3	3	1	2	5	6	0	NULL
+Lictor	25	9	2	4	6	4	4	3	9	5	0	NULL
+Tyranid Warrior	20	6	3	4	4	4	3	3	9	4	0	NULL
+Tyranid Warrior Gunner	20	6	3	4	4	4	3	3	9	4	0	NULL
+Genestealer	11	8	3	4	4	4	1	3	9	5	0	NULL
+Acolyte Hybrid	7	6	3	4	4	3	1	2	7	5	0	NULL
+Acolyte Fighter	8	6	3	4	4	3	1	2	7	5	0	NULL
+Acolyte Leader	8	6	3	4	4	3	1	3	8	5	0	NULL
+Aberrant	15	6	3	6	5	4	2	2	7	5	0	NULL
+Neophyte Hybrid	5	6	4	4	3	3	1	1	7	5	0	NULL
+Neophyte Gunner	6	6	4	4	3	3	1	1	7	5	0	NULL
+Neophyte Leader	6	6	4	4	3	3	1	2	8	5	0	NULL
+Hybrid Metamorph	8	6	3	4	4	3	1	3	7	5	0	NULL
+Metamorph Leader	9	6	3	4	4	3	1	4	8	5	0	NULL

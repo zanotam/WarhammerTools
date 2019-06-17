@@ -1,0 +1,206 @@
+Astartes shotgun	12	Assault 2	4	0	1	If the target is within half range, add 1 to this weapons strength	0
+Auto bolt rifle	24	Assault 2	4	0	1	NULL	0
+Bolt carbine	24	Assault 2	4	0	1	NULL	0
+Bolt pistol	12	Pistol 1	4	0	1	NULL	0
+Bolt rifle	30	Rapid Fire 1	4	-1	1	NULL	0
+Boltgun	24	Rapid Fire 1	4	0	1	NULL	0
+Flamer	8	Assault D6	4	0	1	This weapon automatically hits its target	3
+Frag grenade	6	Grenade D6	3	0	1	NULL	0
+Grav-gun	18	Rapid Fire 1	5	-3	1	If the target has a Save characteristic of 3+ or better, this weapon has a Damage of D3	2
+Grav-pistol	12	Pistol 1	5	-3	1	If the target has a Save characteristic of 3+ or better, this weapon has a Damage of D3	1
+Heavy bolt pistol	12	Pistol 1	4	-1	1	NULL	0
+Heavy bolter	36	Heavy 3	5	-1	1	NULL	3
+Krak grenade	6	Grenade 1	6	-1	d3	NULL	0
+Meltagun	12	Assault 1	8	-4	d6	If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result	3
+Missile Launcher	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Frag -48 / Heavy d6 / S4 / Ap0 / D1 or Krak - 48 / Heavy 1 / S8 / AP-2 / Dd6	5
+Plasma gun	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Standard -24 Rapid Fire 1 / S7 / AP-3 / D1 or Supercharge - 24 / Rapid Fire 1 / S8 / AP-3 / D2 (On an unmodified hit roll of 1, the bearer is taken out of action after all of this weapon's shots have been resolved.)	3
+Plasma Pistol	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Standard - 12 Pistol 1 / S7 / Ap-3 / D1 or Supercharge - 12 Pistol 1 / S8 / AP-3 / D2 (On an unmodified hit roll of 1, the bearer is taken out of action.)	1
+Shock grenade	6	Greneade D6	NULL	NULL	NULL	This weapon does not inflict any damage.  If an enemy Infantry model is hit by any shock grenades, it is stunned until the end of the next battle round.  That model cannot fire Overwatch or be Readied, and your opponent must subtract 1 from hit rolls made for the model.	0
+Sniper rifle	36	Heavy 1	4	0	1	A model firing a sniper rifle does not suffer the penalty to hit rolls for the target being at long range.  If you rolla wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to it's normal damage	1
+Stalker bolt rifle	36	Heavy 1	4	-2	1	NULL	0
+Combi-flamer	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one or both of the following profiles. If you choose both, subtract 1 from all hit rolls made for this weapon. Boltgun - 24 / Rapid Fire 1 / S4 / AP0 / D1 and/or Flamer - 8 / Assault d6 / S4 / AP0 / D1 (This weapon automattically hits its target.)	3
+Combi-grav	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one or both of the following profiles. If you choose both, subtract 1 from all hit rolls made for this weapon. Boltgun - 24 / Rapid Fire 1 / S4 / AP0 / D1 and/or Grav-gun 18 / Rapid Fire 1 / S5 / AP-3 / D1 (If the target has a Save characteristic of 3+ or better, this weapon has a Damage of d3.)	2
+Combi-melta	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one or both of the following profiles. If you choose both, subtract 1 from all hit rolls made for this weapon. Boltgun - 24 / Rapid Fire 1 / S4 / AP0 / D1 or Meltagun - 12 / Assault 1 / S8 / AP-4 / Dd6 (If the target is within half range of the weapon, roll two dice when inflicting damage with it and discard the lowest result.)	3
+Combi-plasma	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one or both of the following profiles. If you choose both, subtract 1 from all hit rolls made for this weapon. Boltgun - 24 / Rapid Fire 1 / S4 / AP0 / D1 or Plasma gun- when attacking with this weapon, choose one of the following profiles) Standard - 24 Rapid Fire 1 / S7 / AP-3 / D1  or Supercharge - 24 / Rapid Fire 1 / S8 / AP-3 / D2 (On an unomdified hit roll of 1, the bearer is taken out of action after all of this weapon's shots have been resolved.)	4
+Chainsword	Melee	Melee	User	0	1	Each time the bearer fights, it can make 1 additional attack with this weapon.	0
+Combat knife	Melee	Melee	User	0	1	Each time the bearer fights, it can make 1 additional attack with this weapon.	0
+Power fist	Melee	Melee	x2	-3	d3	When attacking with this weapon, you must subtract 1 from the hit roll.	4
+Power sword	Melee	Melee	User	-3	1	NULL	2
+Auspex	NULL	NULL	NULL	NULL	NULL	At the start of the Shooting phase, you can choose another Adetptus Astartes model within 3 of a friendly model equipped with an auspex that is not shaken.  That model does not suffer penalties to their hit or injury rolls due to their target being obscured.	1
+Auxiliary grenade launcher	NULL	NULL	NULL	NULL	NULL	If a model is armed with an auxiliary grenade launcher, increase the range of any Grenade weapons they have to 30.	0
+Camo cloak	NULL	NULL	NULL	NULL	NULL	When an opponent makes a hit roll for a shooting attack that targets a model equipped with a camo cloak, and that model is obscured, that hit roll suffers an additional -1 modifier	1
+Grapnel launcher	NULL	NULL	NULL	NULL	NULL	A model with a grapnel launcher can climb any distance vertically when it makes a normal move - do not measure the distance moved in this way.	1
+Grav-chute	NULL	NULL	NULL	NULL	NULL	A model with a grav-chute never suffers falling damage, and never falls on another model.  If it would, instead place this model as close as possible to the point where it would have landed.  This can bring it within 1 of an enemy model.	1
+Deathwatch frag cannon	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Frag round - 8 / Assault 2d6 / S6 / AP-1 / D1 (This weapon automatically hits its target.) or Shell - 24 / Assault 2 / S7 / AP-2 / D2 (If the target is within half range of this weapon, its attacks are resolved with a Strength of 9 and an Ap of -3	5
+Deathwatch shotgun	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Cryptclearer round - 16 / Assault 2 / S4 / AP0 / D1 (You can re-roll failed wound rolls for this weapon.) or Xenopurge slug - 16 / Assault 2 / S4 / AP-1 / D1 (If the target is within half range of this weapon, its attacks are resolved with a Damage of 2.) or Wyrmsbreath shell - 7 / Assault d6 / S3 / AP0 / D1 (This weapon automatically hits its target.)	1
+Infernus heavy bolter	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one or both of the profiles below. If you choose both, subtract 1 from all hit rolls made for this weapon. Heavy Bolter - 36 / Heavy 3 / S5 / AP-1 / D1 or Heavy flamer - 8  / Assault d6 / S5 / AP-1 / D1 (This weapon automatically hits its target.)	2
+Stalker pattern boltgun	30	Heavy 2	4	-1	1	NULL	1
+Heavy thunder hammer	Melee	Melee	x2	-3	d6	When attacking with this weapon, you must subtract 1 fram the hit roll.  Each time you make a wound roll of 6+ with this weapon, that hit is resolved with a Damage of 6.	5
+Power maul	Melee	Melee	+2	-1	1	NULL	2
+Xenophase blade	Melee	Melee	User	-3	1	Your opponent must re-roll successful invulnerable saves for wounds caused by this weapon.	3
+Storm shield	NULL	NULL	NULL	NULL	NULL	A model with a storm shield has a 3+ invulnerable save.	3
+Incinerator	8	Assault D6	6	-1	1	This weapon automatically hits its target.	3
+Psilencer	24	Heavy 6	4	0	d3	NULL	3
+Psycannon	24	Heavy 4	7	-1	1	NULL	2
+Pysk-out grenade	6	Grenade D3	2	0	1	Each time you roll a hit roll of 6+ for this weapon whin targetting a Psyker or Daemon, the target suffers a mortal wound instead of the normal damage.	0
+Storm bolter	24	Rapid Fire 2	4	0	1	NULL	0
+Nemesis Daemon hammer	Melee	Melee	x2	-3	3	When attacking with this weapon, you must subtract 1 from the hit roll.	2
+Nemesis falchion	Melee	Melee	User	-2	d3	If a model is armed with two Nemesis falchions, each time it fights it can make 1 additional attack with them.	1
+Nemesis force halberd	Melee	Melee	+1	-2	d3	NULL	0
+Nemesis force sword	Melee	Melee	User	-3	d3	NULL	0
+Nemesis warding stave	Melee	Melee	+2	-1	d3	A model armed with this weapon has a 5+ invulnerable save against attacks made in the fight phase.  If it already has an invulnerable save, add 1 to the invulnerable saving throws you make for it in the fight phase instead.	0
+Grenade launcher	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Frag grenade - 24 / Assault d6 / S3 / AP0 / D1 or Krak grenade - 24 / Assault 1 / S6 / AP-1 / Dd3	2
+Hot-shot lasgun	18	Rapid Fire 1	3	-2	1	NULL	0
+Hot-shot laspistol	6	Pistol 1	3	-2	1	NULL	0
+Hot-shot volley gun	24	Heavy 4	4	-2	1	NULL	3
+Lasgun	24	Rapid Fire 1	3	0	1	NULL	0
+Laspistol	12	Pistol 1	3	0	1	NULL	0
+Vox-caster	NULL	NULL	NULL	NULL	NULL	You can re-roll failed Nerve tests for Astra Militarum models while a friendly model with a vox-caster is on the battlefield and not shaken	5
+Arc pistol	12	Pistol 1	6	-1	1	NULL	0
+Arc rifle	24	Rapid Fire 1	6	-1	1	NULL	0
+Flechette blaster	12	Pistol 5	3	0	1	NULL	0
+Galvanic rifle	30	Rapid Fire 1	4	0	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.	0
+Phosphor blast pistol	12	Pistol 1	5	-1	1	Attacks made with this weapon do not suffer the penalty to hit rolls for the target being obscured.	0
+Plasma caliver	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Standard - 18 / Assault 2 / S7 / AP-3 / D1 or Supercharge - 18 / Assault 2 / S8 / AP-3 / D2 (On an unmodified hit roll of 1, the bearer is taken out of action after all of this weapon's shots have been resolved.)	3
+Radium carbine	18	Assault 3	3	0	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with a Damage of 3.	0
+Radium pistol	12	Pistol 1	3	0	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with a Damage of 2.	0
+Stubcarbine	18	Pistol 3	4	0	1	NULL	0
+Transuranic arquebus	60	Heavy 1	7	-2	d3	This weapon cannot be fired if the firing model moved during the Movement phase.  A model firing a transuranic arquebus does not suffer the penalty to hit rolls for the target being at long range.  Each time you make a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to the normal damage.	5
+Arc maul	Melee	Melee	+2	-1	1	NULL	0
+Chordclaw	Melee	Melee	User	0	d3	A chordclaw can only be used to make one attack each time this model fights.  Each time you make a wound roll of 6+ with this weapon, the target suffers D3 mortal wounds instead of the normal damage.	1
+Taser goad	Melee	Melee	+2	0	1	Each hit roll of 6+ with this weapon causes 3 hits rather than 1	1
+Transonic blades	Melee	Melee	+1	0	1	Each time you make a wound roll of 6+ with this weapon, the target suffers a mortal wound instead of the normal damage.	0
+Transonic razor	Melee	Melee	User	0	1	Each time you make a wound roll of 6+ with this weapon, the target suffers a mortal wound instead of the normal damage.	0
+Enhanced data-tether	NULL	NULL	NULL	NULL	NULL	You can re-roll failed Nerve tests for Skitarii models while a friendly model with an enhanced data-tether is on the battlefield and not shaken	5
+Omnispex	NULL	NULL	NULL	NULL	NULL	At the start of each Shooting phase, you can choose another Skitarii model within 3 of a friendly model equipped with an omnispex that is not shaken.  That madel does not suffer penalties to their hit or injury rolls due to their target being obscured.	1
+Autogun	24	Rapid Fire 1	3	0	1	NULL	0
+Autopistol	12	Pistol 1	3	0	1	NULL	0
+Heavy Stubber	36	Heavy 3	4	0	1	NULL	0
+Shotgun	12	Assault 2	3	0	1	If the target is within half range, add 1 to this weapon's Strength	0
+Brutal assault weapon	Melee	Melee	User	0	1	Each time the bearer fights, it can make 1 additional attack with this weapon.	0
+Icon of Wrath	NULL	NULL	NULL	NULL	NULL	Khorne models only; You can re-roll charge rolls for Khorne models within 6 of any friendly models equipped with an Icon of Wrath	5
+Icon of Flame	NULL	NULL	NULL	NULL	NULL	Tzeentch models only; At the start of your turn in the Psychic phase, roll a D6 for each model from your kill team equipped with an Icon of Flame.  On a 6, inflict 1 mortal wound on the closest enemy model within 12 of the model being rolled for.	1
+Icon of Despair	NULL	NULL	NULL	NULL	NULL	Nurgle models only; Subtract 1 from the Leadership characteristic of enemy models within 6 of any models equipped with an Icon of Despair	3
+Icon of Excess	NULL	NULL	NULL	NULL	NULL	Slaanesh models only; The Death to the False Emperor ability of models within 6 of any friendly models equipped with an Icon of Excess takes effect on hit rolls of 5+ rather than 6+.	5
+Icon of Vengeance	NULL	NULL	NULL	NULL	NULL	Cannot be taken by Khrone, Tzeentch, Nurgle, or Slaanesh models; Add 1 to the Leadership characteristic of models within 6 of any friendly models equipped with an Icon of Vengeance.	1
+Blight Grenade	6	Grenade D6	3	0	1	You can re-roll wound rolls of 1 for this weapon.	0
+Blight launcher	24	Assault 2	6	-2	d3	You can re-roll wound rolls of 1 for this weapon.	3
+Plague belcher	9	Assault D6	4	0	1	You can re-roll wound rolls of 1 for this weapon.  This weapon automatically hits its target.	3
+Plague spewer	9	Heavy D6	5	-1	1	You can re-roll wound rolls of 1 for this weapon.  This weapon automatically hits its target.	4
+Bubotic axe	Melee	Melee	+1	-2	1	You can re-roll wound rolls of 1 for this weapon.	2
+Flail of corruption	Melee	Melee	+2	-2	2	You can re-roll wound rolls of 1 for this weapon.  Make D3 hit rolls each time you attack with this weapon.	4
+Great plague cleaver	Melee	Melee	x2	-3	d6	You can re-roll wound rolls of 1 for this weapon.  When attacking with this weapon, you must subtract 1 from the hit roll.	4
+Improvised weapon	Melee	Melee	User	0	1	NULL	0
+Mace of corruption	Melee	Melee	+2	-1	3	You can re-roll wound rolls of 1 for this weapon.  When attacking with this weapon, you must subtract 1 from the hit roll.	3
+Plague knife	Melee	Melee	User	0	1	You can re-roll wound rolls of 1 for this weapon.	0
+Plaguesword	Melee	Melee	User	0	1	You can re-roll falied wound rolls for this weapon.	0
+Inferno bolt pistol	12	Pistol 1	4	-2	1	NULL	0
+Inferno boltgun	24	Rapid Fire 1	4	-2	1	NULL	0
+Soulreaper cannon	24	Heavy 4	5	-3	1	NULL	4
+Warpflame pistol	6	Pistol D6	3	-2	1	This weapon automatically hits its target	1
+Warpflamer	8	Assault D6	4	-2	1	This weapon automatically hits its target	4
+Force stave	Melee	Melee	+2	-1	d3	NULL	0
+Tzaangor blades	Melee	Melee	User	-1	1	Each time the bearer fights, it can make 1 additional attack with this weapon.	0
+Brayhorn	NULL	NULL	NULL	NULL	NULL	Add 1 to Advance and charge rolls made for Tzaangors within 6 of any friendly models equipped with a brayhorn.	3
+Aeldari missile launcher	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Sunburst missile - 48 / Heavy d6 / S4 / AP-1 / D1 or Starshot MIssile - 48 / HEavy 1 / S8 / AP-2 / Dd6	5
+Avenger shuriken catapult	18	Assault 2	4	0	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3	0
+Bright lance	36	Heavy 1	8	-4	d6	NULL	4
+Fusion gun	12	Assault 1	8	-4	d6	If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.	3
+Plasma grenade	6	Grenade D6	4	-1	1	NULL	0
+Ranger long rifle	36	Heavy 1	4	0	1	A model firing a Ranger long rifle does not suffer the penalty to hit rolls for the target being at long range.  Each time you roll a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to any other damage	0
+Scatter laser	36	Heavy 4	6	0	1	NULL	2
+Shuriken cannon	24	Assault 3	6	0	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3	2
+Shuriken catapult	12	Assault 2	4	0	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3	0
+Shuriken pistol	12	Pistol 1	4	0	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3	0
+Starcannon	36	Heavy 2	6	-3	d3	NULL	3
+Aeldari blade	Melee	Melee	User	0	1	You can re-roll failed hit rolls for this weapon	0
+Diresword	Melee	Melee	User	-2	1	Each time you make a wound roll of 6+ for this weapon, the target suffers a mortal wound in addition to any other damage.	2
+Power glaive	Melee	Melle	+1	-2	1	NULL	1
+Shimmershield	NULL	NULL	NULL	NULL	NULL	Dire Avenger models within 2 of a friendly model with a shimmershield have a 5+ invulnerability save.	4
+Blast pistol	6	Pistol 1	8	-4	d6	NULL	2
+Blaster	18	Assault 1	8	-4	d6	NULL	3
+Dark lance	36	Heavy 1	8	-4	d6	NULL	4
+Phantasm grenade launcher	18	Assault D3	1	0	1	If a model is hit by one or more phantasm grenade launchers, subtract 1 from its Leadership characteristic until the end of the battle round.	1
+Shredder	12	Assault D6	6	-1	1	When attacking an Infantry model, re-roll failed wound rolls for this weapon.	1
+Splinter cannon	36	Rapid Fire 3	*	0	1	This weapon wounds on a 4+	3
+Splinter pistol	12	Pistol 1	*	0	1	This weapon wounds on a 4+	0
+Splinter rifle	24	Rapid Fire 1	*	0	1	This weapon wounds on a 4+	0
+Agoniser	Melee	Melee	*	-2	1	This weapon wounds on a 4+	2
+Hekatarii blade	Melee	Melee	User	0	1	Each time the bearer fights, it can make 1 additional attack with this weapon.	0
+Hydra gauntlets	Melee	Melee	User	-1	1	Each time the bearer fights, it can make 1 additional attack with this weapon.  You can re-roll failed wound rolls for this weapon.	2
+Razorflails	Melee	Melee	User	-1	1	Each time the bearer fights, it can make 1 additional attack with this weapon.  You can re-roll failed hit rolls for this weapon.	2
+Shardnet and impaler	Melee	Melee	User	-1	2	Each time the bearer fights, it can make 1 additional attack with this weapon.	2
+Fusion pistol	6	Pistol 1	8	-4	d6	If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.	3
+Neuro disruptor	12	Pistol 1	3	-3	d3	NULL	2
+Harlequin's blade	Melee	Melee	User	0	1	NULL	0
+Harlequin's caress	Melee	Melee	+2	-2	1	NULL	3
+Harlequin's embrace	Melee	Melee	+1	-3	1	NULL	2
+Harlequin's kiss	Melee	Melee	+1	-1	d3	NULL	4
+Gauss blaster	24	Rapid Fire 1	5	-2	1	NULL	0
+Gauss flayer	24	Rapid Fire 1	4	-1	1	NULL	0
+Synaptic disintegrator	24	Rapid Fire 1	4	0	1	A model firing a synaptic disintegrator does not suffer the penalty to hit rolls for the target being at long range.  Each time you roll a wound roll of 6+ for this weapon, the target suffers a mortal wound in addition to any other damage.	0
+Tesla carbine	24	Assault 2	5	0	1	Each hit roll of 6+ with this weapon causes 3 hits.	0
+Flayer claws	Melee	Melee	User	0	1	Re-roll failed wound rolls for this weapon.	0
+Big shoota	36	Assault 3	5	0	1	NULL	0
+Burna - Ranged	8	Assault D3	4	0	1	This weapon automatically hits its target	0
+Burna - Melee	Melee	Melee	User	-2	1	NULL	0
+Deffgun	48	Heavy D3	7	-1	2	NULL	0
+Grot blasta	12	Pistol 1	3	0	1	NULL	0
+Kombi-weapon with rokkit launcha	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one or both of the following profiles. If you choose both, subtract 1 from all hit rolls made for this weapon. Rokkit launcha - 24 / Assault 1 / S8 / AP-2 / D3 and/or Shoota - 18 / Assault 2 / S4 / AP0 / D1	3
+Kombi-weapon with skorcha	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one or both of the following profiles. If you choose both, subtract 1 from all hit rolls made for this weapon. Shoota - 18 / Assault 2 / S4 / AP0 / D1 and/or Skorcha - 8 Assault d6 / S5 / AP-1 / D1	4
+Kustom mega-blasta	24	Assault 1	8	-3	d3	On an unmodified hit roll of 1, the bearer suffers a mortal wound.	0
+Rokkit launcha	24	Assault 1	8	-2	3	NULL	3
+Shoota	18	Assault 2	4	0	1	NULL	0
+Slugga	12	Pistol 1	4	0	1	NULL	0
+Stikkbomb	6	Grenade D6	3	0	1	NULL	0
+Big choppa	Melee	Melee	+2	-1	2	NULL	2
+Choppa	Melee	Melee	User	0	1	Each time the bearer fights, it can make 1 additional attack with this weapon.	0
+Power klaw	Melee	Melee	x2	-3	d3	When attacking with this weapon, you must subtract 1 from the hit roll.	4
+Burst cannon	18	Assault 4	5	0	1	NULL	0
+Fusion blaster	18	Assault 1	8	-4	d6	If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.	4
+Ion rifle	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Standard - 30 / Rapid Fire 1 / S7 / AP-1 / D1 or Overcharge - 30 / Heavy d3 / S8 / AP-1 / D2 (If you make one or more unmodified hit rolls of 1, the bearer suffers a mortal wound after all of this weapon's shots have been resolved.)	3
+Markerlight	36	Heavy 1	NULL	NULL	NULL	Markerlights (169)	0
+Missile pod	36	Assault 2	7	-1	d3	NULL	7
+Photon grenade	12	Grenade D6	NULL	NULL	NULL	This weapon does not inflict any damage.  Your opponent must subtract 1 from hit rolls made for Infantry models that have suffered any hits from photon grenades until the end of the battle round.	0
+Pulse blaster	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles: Close range - 5 / Assault 2 / S6 / AP-2 / D1 or Medium range - 10 / Assault 2 / S5 / AP-1 / D1 or Long range - 15 / Assault 2 / S4 / Ap0 / D1	0
+Pulse carbine	18	Assault 2	5	0	1	NULL	0
+Pulse pistol	12	Pistol 1	5	0	1	NULL	0
+Pulse rifle	30	Rapid Fire 1	5	0	1	NULL	0
+Rail rifle	30	Rapid Fire 1	6	-4	d3	For each wound roll of 6+ made for this weapon, the target model suffers a mortal wound in addition to the normal damage.	5
+Smart missile system	30	Heavy 4	5	0	1	This weapon can be fired at models that are not visible to the bearer.  If the target is not visible to the bearer, a 6 is required for a successful hit roll, irrespective of the firing model's Ballistic Skill or any modifiers.	5
+Target lock	NULL	NULL	NULL	NULL	NULL	A model with a target lock does not suffer the penalty to their hit rolls for Advancing and firing Assault weapons.	1
+Barbed strangler	36	Assault D6	5	-1	1	NULL	3
+Deathspitter	24	Assault 3	5	-1	1	NULL	2
+Devourer	18	Assault 3	4	0	1	NULL	3
+Flesh hooks	6	Assault 2	User	0	1	This weapon can be fired within 1 of an enemy model and can target enemy models within 1 of friendly models	0
+Fleshborer	12	Assault 1	4	0	1	NULL	0
+Spinefists	12	Pistol *	3	0	1	When a model fires this weapon, it makes a number af shots equal to its Attacks characteristic.	0
+Venom cannon	36	Assault D3	8	-2	d3	NULL	4
+Acid maw	Melee	Melee	User	-3	1	NULL	0
+Boneswords	Melee	Melee	User	-2	1	A model armed with boneswords can make 1 additional attack with them in the Fight phase.	0
+Grasping talons	Melee	Melee	User	-1	2	NULL	0
+Lash whip and bonesword	Melee	Melee	User	-2	1	If the bearer is taken out of action in the Fight phase before it has made its attacks in that phase, it may immediately fight before being removed from the battlefield.	1
+Rending claws	Melee	Melee	User	-1	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.	0
+Scything talons	Melee	Melee	User	0	1	You can re-roll hit rolls of 1 for this weapon.  If the bearer has more than one pair of scyithing talons, it can make 1 additional attack with this weapon each time it fights.	0
+Adrenal glands	NULL	NULL	NULL	NULL	NULL	If a model has adrenal glands, add 1 to the distance it can move when it Advances or charges.	1
+Extended carapace	NULL	NULL	NULL	NULL	NULL	A model with an extended carapace has a Save characteristic of a 4+ but loses the Swift and Deadly ability.	0
+Toxin sacs	NULL	NULL	NULL	NULL	NULL	Any wound rolls of 6+ in the Fight phase for a model with toxin sacs cause 1 additional damage.	1
+Blasting charge	6	Grenade D6	3	0	1	NULL	0
+Demolition charge	6	Grenade D6	8	-3	d3	Each demolition charge can only be used once per battle.	3
+Hand flamer	6	Pistol D3	3	0	1	This weapon automatically hits its target	2
+Mining laser	24	Heavy 1	9	-3	d3	NULL	3
+Seismic cannon	NULL	NULL	NULL	NULL	NULL	When attacking with this weapon, choose one of the following weapon profiles. All wound rolls of 6+ have an AP of -4. Long-wave - 24 / Heavy 4 / S3 / AP0 / D1 or Short-wave - 12 / Heavy 2 / S6 / AP-1 / D2.	2
+Web pistol	12	Pistol D3	3	0	1	When making a shooting attack with a web weapon, you can use either the Strength or Toughness characteristic of the target to determine the wound roll, whichever is lowest.	0
+Webber	16	Assault D3	4	0	1	When making a shooting attack with a web weapon, you can use either the Strength or Toughness characteristic of the target to determine the wound roll, whichever is lowest.	1
+Bonesword	Melee	Melee	User	-2	1	NULL	1
+Cultist knife	Melee	Melee	User	0	1	Each time the bearer fights, it can make 1 additional attack with this weapon.	0
+Heavy rock cutter	Melee	Melee	x2	-4	2	Roll a D6 each time a model suffers damage from this weapon; if you roll higher than the model's remaining number of Wounds, it is instantly taken out of action.  When attacking with this weapon, you must subtract1 from the hit roll.	4
+Heavy rock drill	Melee	Melee	x2	-3	1	Roll a D6 each time a model suffers damage from this weapon; on a 2+ the model suffers a mortal wound and you can roll another D6.  This time, the model suffers a mortal wound on a 3+.  Keep rolling a D6, increasing the score required to cause a mortal wound by 1 each time, until the model is taken out of action or the roll is failed.	5
+Heavy rock saw	Melee	Melee	x2	-4	2	NULL	4
+Metamorph claw	Melee	Melee	+2 	0	1	NULL	1
+Metamorph talon	Melee	Melee	User	0	1	Add 1 to all hit rolls for this weapon.	0
+Metamorph whip	Melee	Melee	User	0	1	If the bearer is taken out of action in the Fight phase before it has made its attackis in that phase, it may immediately fight before being removed from the battlefield.	1
+Power hammer	Melee	Melee	x2	-4	3	When attacking with this weapon, you must subtract 1 from the hit roll.	4
+Power pick	Melee	Melee	User	-2	d3	NULL	3
+Rending claw	Melee	Melee	User	-1	1	Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.	0
+Cult icon	NULL	NULL	NULL	NULL	NULL	You can re-roll hit rolls of 1 for models within 6 of a friendly model with a cult icon in the Fight phase.	5
