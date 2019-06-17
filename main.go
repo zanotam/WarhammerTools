@@ -1,8 +1,8 @@
 package main
 
 import (
+	"WarhammerTools/KTRoster/ktDatabasePrep"
 	"WarhammerTools/WebServer"
-	"WarhammerTools/ktRoster/ktDatabasePrep"
 	"fmt"
 	"log"
 )
@@ -12,9 +12,10 @@ import (
 //)
 
 func main() {
+
 	err := ktDatabasePrep.LoadKTDB()
 	if err != nil {
-		_, _ = fmt.Printf("There was an error: %v", err )
+		_, _ = fmt.Printf("There was an error: %v", err)
 	}
 	err = WebServer.LoadWebServer()
 	if err != nil {
@@ -28,4 +29,4 @@ func main() {
 
 /*
 https://golang.org/doc/effective_go.html#interface_methods
- */
+*/

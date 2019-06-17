@@ -1,8 +1,9 @@
 h1 {
     text-align:center;
-    color:green;
+    color:darkslategrey;
 }
 
 .KillTeam {
-    color:darkorange;
+    background-color:darkorange;
+    color:darkgreen;
 }

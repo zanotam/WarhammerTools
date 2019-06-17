@@ -13,7 +13,7 @@ import (
 //LoadKTDB Loads the killteam data
 func LoadKTDB() error {
 	//set up database
-	_, _  = fmt.Printf("opening database \n")
+	_, _ = fmt.Printf("opening database \n")
 	db, dbErr := sql.Open("mysql", "root:@BlueSyke01@/KillTeamRoster")
 	if dbErr != nil {
 		// This will not be a connection error, but a DSN parse error or
@@ -102,14 +102,14 @@ func loadUnits(fileName string, db *sql.DB) error {
 	}
 	//parse lines with a for statement then load lines into the database
 	for i, row := range rows {
-		if (i != (len(rows) -1 )) {
+		if i != (len(rows) - 1) {
 
 			fields := strings.Split(row, "\t")
 			insert := `INSERT INTO units (name, points, move, ws, bs, strength, toughness, wounds, attacks, leadership, save, commander, description) VALUES (`
 			//add the fields to the insert
 			for j, value := range fields {
-				if (j < (len(fields) - 1)) {
-					if (j == 0) { //name field
+				if j < (len(fields) - 1) {
+					if j == 0 { //name field
 						insert = insert + `"` + value + `"`
 					} else {
 						insert += value
@@ -153,12 +153,12 @@ func loadWeapons(fileName string, db *sql.DB) error {
 	}
 	//parse lines with a for statement then load lines into the database
 	for i, row := range rows {
-		if (i != (len(rows) -1 )) {
+		if i != (len(rows) - 1) {
 			fields := strings.Split(row, "\t")
 			insert := `INSERT INTO weapons (name, distance, style, strength, ap, damage, description, points) VALUES (`
 			//add the fields to the insert
 			for index, value := range fields {
-				if (index < (len(fields) - 1)) {
+				if index < (len(fields) - 1) {
 					if (index == 0) || (index == 1) || (index == 2) || (index == 3) || (index == (len(fields) - 2)) || (index == (len(fields) - 3)) { //name field
 						insert = insert + `"` + value + `"`
 					} else {
@@ -166,7 +166,7 @@ func loadWeapons(fileName string, db *sql.DB) error {
 					}
 					insert += ", "
 				} else { //description field
-					insert += value;
+					insert += value
 					insert += ");"
 				}
 			}
@@ -200,16 +200,16 @@ func loadSkills(fileName string, db *sql.DB) error {
 	}
 	//parse lines with a for statement then load lines into the database
 	for i, row := range rows {
-		if (i != (len(rows) - 1)) {
+		if i != (len(rows) - 1) {
 			fields := strings.Split(row, "\t")
 			insert := `INSERT INTO skills (type, level, name, commander, description) VALUES (`
 			//add the fields to the insert
 			for index, value := range fields {
-				if (index < (len(fields) - 1)) {
-					if (index == 0) { //type field
+				if index < (len(fields) - 1) {
+					if index == 0 { //type field
 						insert = insert + `"` + value + `"`
 					} else {
-						if (index == 2) { //name field
+						if index == 2 { //name field
 							insert = insert + `"` + value + `"`
 						} else {
 							insert += value
@@ -249,17 +249,17 @@ func loadPsychicPowers(fileName string, db *sql.DB) error {
 	}
 	//parse lines with a for statement then load lines into the database
 	for i, row := range rows {
-		if (i != (len(rows) - 1)) {
+		if i != (len(rows) - 1) {
 			fields := strings.Split(row, "\t")
 			insert := `INSERT INTO psychicpowers (list, name, warpcharge, description) VALUES (`
 			//add the fields to the insert
 			for index, value := range fields {
-				if (index == 2) {
+				if index == 2 {
 					insert += value
 					insert += ", "
 				} else {
 					insert = insert + `"` + value + `"`
-					if (index == (len(fields) - 1)) {
+					if index == (len(fields) - 1) {
 						insert += ");"
 					} else {
 						insert += ", "
