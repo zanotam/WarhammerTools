@@ -2,6 +2,8 @@ package ktDatabasePrep
 
 import (
 	"context"
+
+	//	"context"
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
@@ -22,11 +24,11 @@ func LoadKTDB() error {
 	}
 	//test database
 	fmt.Printf("testing database connection \n")
-	ctx, stop := context.WithCancel(context.Background())
-	defer stop()
-	if err := db.PingContext(ctx); err != nil {
-		log.Fatal("unable to connect to database", err)
-	}
+	//	ctx, stop := context.WithCancel(context.Background())
+	//	defer stop()
+	//	if err := db.PingContext(ctx); err != nil {
+	//		log.Fatal("unable to connect to database", err)
+	//	}
 	defer db.Close()
 	//call functions to upload with appropriate filenames
 	unitsFile := "Units.tsv"
