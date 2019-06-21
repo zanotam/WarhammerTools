@@ -1,9 +1,54 @@
 h1 {
     text-align:center;
-    color:darkslategrey;
 }
-
-.KillTeam {
-    background-color:darkorange;
-    color:darkgreen;
+div {
+    margin:0;
+    padding:0;
+}
+.menu ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+.menu li {
+    display:inline;
+}
+.menu li a {
+    text-decoration:none;
+    text-align:center;
+    color:black;
+}
+.menu li a:hover {
+    background-color:lightgrey;
+}
+.killteam {
+    background-color: darkorange;
+    color: darkgreen;
+}
+.killteam a {
+    color:darkgreen
+}
+.fortyk {
+    background-color:lightgrey;
+    color:black;
+   }
+.fortyk a {
+    color:black
+}
+.sigmar {
+    background-color:black;
+    color:gold;
+}
+.sigmar a{
+    color:gold;
+}
+.warmahordes {
+    background-color:darkslategrey;
+    color:red;
+}
+.warmahordes a {
+    color:red
 }
