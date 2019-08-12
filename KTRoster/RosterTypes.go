@@ -9,7 +9,7 @@ type Model struct {
 	Exp     int
 	Level   *UnitLevel
 	Skills  []*Skill
-	Traits  []*CommanderTraits
+	Traits  []*CommanderTrait
 	Points  int
 }
 

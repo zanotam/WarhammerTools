@@ -1,4 +1,4 @@
-package ktDatabasePrep
+package Database
 
 import (
 	"context"
@@ -52,6 +52,12 @@ func LoadKTDB() error {
 	psychicErr := loadPsychicPowers(psychicFile, db)
 	if psychicErr != nil {
 		return psychicErr
+	}
+	fmt.Print("loading commander traits \n")
+	traitsFile := "Traits.tsv"
+	traitsErr := loadTraits(traitsFile, db)
+	if traitsErr != nil {
+		return traitsErr
 	}
 	return nil
 }
@@ -270,6 +276,53 @@ func loadPsychicPowers(fileName string, db *sql.DB) error {
 			commitRowErr := commitTransaction(insert, db)
 			if commitRowErr != nil {
 				fmt.Print("Psychic row errored out. \n")
+				return commitRowErr
+			}
+		}
+	}
+	return nil
+}
+func loadTraits(fileName string, db *sql.DB) error {
+	rows, err := convertToRows(fileName)
+	if err != nil {
+		fmt.Print("Converting commander traits file error. \n")
+		return err
+	}
+	// create table if missing
+	var creation string
+	creation = `CREATE TABLE IF NOT EXISTS commandertraits (
+				name VARCHAR(100) NOT NULL PRIMARY KEY,
+				cost INT NOT NULL, 
+				level4 BOOL NOT NULL,
+				description TEXT NOT NULL);`
+	commitTableErr := commitTransaction(creation, db)
+	if commitTableErr != nil {
+		fmt.Print("Traits table errored out. \n")
+		return commitTableErr
+	}
+	//parse lines with a for statement then load lines into the database
+	for i, row := range rows {
+		if i != (len(rows) - 1) {
+			fields := strings.Split(row, "\t")
+			insert := `INSERT INTO commandertraits (name, cost, level4, description) VALUES (`
+			//add the fields to the insert
+			for index, value := range fields {
+				if index == 1 || index == 2 {
+					insert += value
+					insert += ", "
+				} else {
+					insert = insert + `"` + value + `"`
+					if index == (len(fields) - 1) {
+						insert += ");"
+					} else {
+						insert += ", "
+					}
+				}
+			}
+			//the row insertion transaction stuff
+			commitRowErr := commitTransaction(insert, db)
+			if commitRowErr != nil {
+				fmt.Print("Traits row errored out. \n")
 				return commitRowErr
 			}
 		}

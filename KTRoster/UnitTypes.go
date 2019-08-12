@@ -22,6 +22,7 @@ type Weapon struct {
 	Style       string
 	Strength    string
 	AP          int
+	Damage      string
 	Description string
 }
 
@@ -47,8 +48,9 @@ type Skill struct {
 }
 
 //CommanderTraits is used to represent the limited number of universal commander traits available
-type CommanderTraits struct {
-	Name   string
-	Points int
-	Level4 bool
+type CommanderTrait struct {
+	Name        string
+	Points      int
+	Level4      bool
+	Description string
 }

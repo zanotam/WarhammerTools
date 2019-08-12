@@ -1,19 +1,19 @@
 package main
 
 import (
-	"WarhammerTools/KTRoster/ktDatabasePrep"
-	"WarhammerTools/WebServer"
+	"WarhammerTools/Servers/Database"
+	"WarhammerTools/Servers/WebServer"
 	"fmt"
 	"log"
 )
 
 //import (
-//	"ktDatabasePrep"
+//	"Database"
 //)
 
 func main() {
 
-	err := ktDatabasePrep.LoadKTDB()
+	err := Database.LoadKTDB()
 	if err != nil {
 		_, _ = fmt.Printf("There was an error: %v", err)
 	}
