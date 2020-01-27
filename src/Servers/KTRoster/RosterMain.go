@@ -54,6 +54,27 @@ func init() {
 		weapon := copyWeaponStatsFromRow(weaponRows)
 		WeaponMap[weapon.Name] = weapon
 	}
+	//loading psychic powers into maps
+	psychicCommand := `SELECT * FROM psychicpowers`
+	psychicRows, _ := commitTransaction(psychicCommand, db)
+	for psychicRows.Next() {
+		psychic := copyPsychicStatsFromRow(psychicRows)
+		PsychicMap[psychic.Name] = psychic
+	}
+	//loading skills into maps
+	skillCommand := `SELECT * FROM skills`
+	skillRows, _ := commitTransaction(skillCommand, db)
+	for skillRows.Next() {
+		skill := copySkillStatsFromRow(skillRows)
+		SkillMap[skill.Name] = skill
+	}
+	//loading traits into maps
+	traitCommand := `SELECT * FROM commandertraits`
+	traitRows, _ := commitTransaction(traitCommand, db)
+	for traitRows.Next() {
+		trait := copyTraitStatsFromRow(traitRows)
+		TraitMap[trait.Name] = trait
+	}
 }
 
 func commitTransaction(command string, db *sql.DB) (row *sql.Rows, err error) {
@@ -109,11 +130,12 @@ func copyWeaponStatsFromRow(rows *sql.Rows) (weapon Weapon) {
 func copyPsychicStatsFromRow(rows *sql.Rows) (psychic PsychicPower) {
 	var (
 		category    string
+		name        string
 		warpCharge  int
 		description string
 	)
-	rows.Scan(category, warpCharge, description)
-	psychic = PsychicPower{category, warpCharge, description}
+	rows.Scan(category, name, warpCharge, description)
+	psychic = PsychicPower{category, name, warpCharge, description}
 	return
 }
 

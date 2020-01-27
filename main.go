@@ -1,8 +1,8 @@
-package main
+package WarhammerTools
 
 import (
-	"WarhammerTools/Servers/Database"
-	"WarhammerTools/Servers/WebServer"
+	"WarhammerTools/src/Servers/Database"
+	"WarhammerTools/src/Servers/WebServer"
 	"fmt"
 	"log"
 )

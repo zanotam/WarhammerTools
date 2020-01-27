@@ -49,6 +49,6 @@ func (resources *Resource) SetMorale(value int) {
 func (resources *Resource) Territory() int {
 	return [4]int(*resources)[3]
 }
-func (resources *Resource) SetTerriotyr(value int) {
+func (resources *Resource) SetTerritory(value int) {
 	[4]int(*resources)[3] = value
 }

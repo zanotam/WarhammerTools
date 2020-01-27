@@ -36,6 +36,7 @@ type UnitLevel struct {
 //PsychicPower is used to hold psychic powers like psybolt and what not.
 type PsychicPower struct {
 	Category    string
+	Name        string
 	WarpCharge  int
 	Description string
 }
